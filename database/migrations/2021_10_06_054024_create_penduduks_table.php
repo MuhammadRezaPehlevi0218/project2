@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePembeliTable extends Migration
+class CreatePenduduksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreatePembeliTable extends Migration
      */
     public function up()
     {
-        Schema::create('pembeli', function (Blueprint $table) {
-            $table->id('id_pembeli');
-            $table->string('nama_pembeli', 30)->nullable();
-            $table->enum('jenis_kelamin', ['L', 'P']);
-            $table->string('alamat');
+        Schema::create('penduduks', function (Blueprint $table) {
+            $table->string('NIK')->primary();
+            $table->string('Nama');
+            $table->string('Jenis_Kelamin');
+            $table->string('NoHP');
+            $table->string('Alamat');
+            $table->string('Foto');
             $table->timestamps();
         });
     }
@@ -29,6 +31,6 @@ class CreatePembeliTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pembeli');
+        Schema::dropIfExists('penduduks');
     }
 }
