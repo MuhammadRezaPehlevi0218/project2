@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>INVENTORY | @yield('title')</title>
+  <title>PENDATAAN | @yield('title')</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -37,9 +37,9 @@
     <!-- Logo -->
     <a href="../../index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b></b>INVENTORY</span>
+      <span class="logo-mini"><b></b>PENDATAAN</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>PWL</b>INVENTORY</span>
+      <span class="logo-lg"><b>PROYEK2</b>PENDATAAN</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -138,7 +138,7 @@
   <!-- /.content-wrapper -->
 
   <footer class="main-footer">
-    <strong>&copy; 2021 <a href="">SISTEM INFORMASI INVENTORY</a></strong>
+    <strong>&copy; 2021 <a href="">SISTEM INFORMASI PENDATAAN PENDUDUK TIDAK TETAP</a></strong>
   </footer>
 
   <!-- /.control-sidebar -->
